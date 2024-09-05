@@ -1,17 +1,15 @@
 # Creating-Virtual-Networks-and-Virtual-Machines
 <h3>Creating Our Resources & Virtual Machines </h3> <br>
-  <img width="386" alt="1" src="https://github.com/user-attachments/assets/59fd6633-f347-40e5-aeb2-0b1b92fd5acc" style="display: block; margin-bottom: 20px;">  
+
+  <img width="386" alt="1" src="https://github.com/user-attachments/assets/59fd6633-f347-40e5-aeb2-0b1b92fd5acc">  
+  <br><br>
   
-<img width="1183" alt="2" src="https://github.com/user-attachments/assets/1ab43f3c-0c42-4dee-abcc-f9c058182d35" style="display: block; margin-bottom: 20px;">
+<img width="1183" alt="2" src="https://github.com/user-attachments/assets/1ab43f3c-0c42-4dee-abcc-f9c058182d35">
+ <br><br>
 
-<img width="696" alt="3" src="https://github.com/user-attachments/assets/b4123cb6-7c80-48eb-9b97-4bbca3f431f6" style="display: block; margin-bottom: 20px;">
+<img width="696" alt="3" src="https://github.com/user-attachments/assets/b4123cb6-7c80-48eb-9b97-4bbca3f431f6">
 
-<img width="715" alt="4" src="https://github.com/user-attachments/assets/e7ed4775-824d-432e-b2a9-484dea9e8772" style="display: block; margin-bottom: 20px;">
-
-
-
-
-
+<img width="715" alt="4" src="https://github.com/user-attachments/assets/e7ed4775-824d-432e-b2a9-484dea9e8772">
 
 
 
