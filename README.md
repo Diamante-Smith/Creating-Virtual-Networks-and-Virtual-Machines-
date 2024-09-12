@@ -1,7 +1,7 @@
 # Creating-Virtual-Networks-and-Virtual-Machines
 <h3>Creating Our Resources & Virtual Machines </h3> <br>
 
-<p>This is a detailed tutorial starting by creating our resource groups for the virtual machines that will be used in this lab. Following up with that we will be using remote desktop from the perspective of using MacOs. Finally, we will be performing network.</p>
+<p>This tutorial provides a comprehensive guide starting with the creation of resource groups for virtual machines, which will be utilized throughout the lab. We’ll then explore remote desktop access specifically from a macOS perspective. Finally, we’ll dive into performing various network-related tasks using the virtual machines, giving you hands-on experience in managing and configuring network activities.</p>
 
 
 
