@@ -1,7 +1,13 @@
 # Creating-Virtual-Networks-and-Virtual-Machines
 <h3>Creating Our Resources & Virtual Machines </h3> <br>
 
-  <img width="386" alt="1" src="https://github.com/user-attachments/assets/59fd6633-f347-40e5-aeb2-0b1b92fd5acc">  
+<p>This is a detailed tutorial starting by creating our resource groups for the virtual machines that will be used in this lab. Following up with that we will be using remote desktop from the perspective of using MacOs. Finally, we will be performing network.</p>
+
+
+
+  <img width="386" alt="1" src="https://github.com/user-attachments/assets/59fd6633-f347-40e5-aeb2-0b1b92fd5acc">
+
+  
   <br><br>
   
 <img width="1183" alt="2" src="https://github.com/user-attachments/assets/1ab43f3c-0c42-4dee-abcc-f9c058182d35">
