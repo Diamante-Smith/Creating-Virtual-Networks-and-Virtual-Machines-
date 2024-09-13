@@ -13,7 +13,7 @@
 
 - Windows Server 2022
 - Windows 10 Pro (22H2)
-- macOS 
+- MacOS 
 
 <h2>Creating Our Resources & Virtual Machines </h2> 
 <be>
