@@ -12,7 +12,7 @@
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
-- Windows 10 (21H2)
+- Windows 10 Pro (22H2)
 - macOS 
 
 <h2>Creating Our Resources & Virtual Machines </h2> 
