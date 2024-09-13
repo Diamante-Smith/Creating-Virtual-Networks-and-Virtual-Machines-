@@ -21,9 +21,9 @@
 <h3>&#9312; Create The Resource Group</h3>
 
   <img width="386" alt="1" src="https://github.com/user-attachments/assets/59fd6633-f347-40e5-aeb2-0b1b92fd5acc">
-<p> Go to https://portal.azure.com/#home to get started </p>
-<p> Once your there click on/ search Resource Groups and afterward click on create </p>
-<p> For me I named mine RG-LAB-02 as this was my second lab and for the region since i'm located in the Eastcoast East US 2 worked out for me and the other labs</p>
+<p> - Go to https://portal.azure.com/#home to get started </p>
+<p> - Once your there click on/ search Resource Groups and afterward click on create </p>
+<p> - For me I named mine RG-LAB-02 as this was my second lab and for the region since i'm located in the Eastcoast East US 2 worked out for me and the other labs</p>
   <br><be>
 
   <h3>&#9313; Create The Virtual Machine With The Virtual Network</h3>
@@ -32,9 +32,9 @@
  <br><br>
 
 <img width="696" alt="3" src="https://github.com/user-attachments/assets/b4123cb6-7c80-48eb-9b97-4bbca3f431f6">
-<p> Search for Virtual Machines and hit create </p>
-<p> Select your resource group, for the virtual machine name I just made it VM1 </p>
-<p> Selected my region,  </p>
+<p> - Search for Virtual Machines and hit create </p>
+<p> - Select your resource group, for the virtual machine name I just made it VM1 </p>
+<p> - Selected my region, for availability options set that to "No infrastructure redundancy required", Security type standard, and finally image Windows 10 Pro, version 22H2 x64 Gen2  </p>
 <br><br>
 
 <img width="715" alt="4" src="https://github.com/user-attachments/assets/e7ed4775-824d-432e-b2a9-484dea9e8772">
