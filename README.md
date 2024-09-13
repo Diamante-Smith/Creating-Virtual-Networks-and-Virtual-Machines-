@@ -1,26 +1,47 @@
 # Creating-Virtual-Networks-and-Virtual-Machines
-<h3>Creating Our Resources & Virtual Machines </h3> <br>
+
 
 <p>This tutorial provides a comprehensive guide starting with the creation of resource groups for virtual machines, which will be utilized throughout the lab. We’ll then explore remote desktop access specifically from a macOS perspective. Finally, we’ll dive into performing various network-related tasks using the virtual machines, giving you hands-on experience in managing and configuring network activities.</p>
 
+<h2>Technologies Used</h2>
 
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- PowerShell
+
+<h2>Operating Systems Used </h2>
+
+- Windows Server 2022
+- Windows 10 (21H2)
+- macOS 
+
+<h2>Creating Our Resources & Virtual Machines </h2> 
+<be>
+
+<h3>&#9312; Create The Resource Group</h3>
 
   <img width="386" alt="1" src="https://github.com/user-attachments/assets/59fd6633-f347-40e5-aeb2-0b1b92fd5acc">
+<p> Go to https://portal.azure.com/#home to get started </p>
+<p> Once your there click on/ search Resource Groups and afterward click on create </p>
+<p> For me I named mine RG-LAB-02 as this was my second lab and for the region since i'm located in the Eastcoast East US 2 worked out for me and the other labs</p>
+  <br><be>
 
-  
-  <br><br>
-  
+  <h3>&#9313; Create The Virtual Machine With The Virtual Network</h3>
+<p> Here is the created resource group</p>
 <img width="1183" alt="2" src="https://github.com/user-attachments/assets/1ab43f3c-0c42-4dee-abcc-f9c058182d35">
  <br><br>
 
 <img width="696" alt="3" src="https://github.com/user-attachments/assets/b4123cb6-7c80-48eb-9b97-4bbca3f431f6">
+<p> Search for Virtual Machines and hit create </p>
+<p> Select your resource group, for the virtual machine name I just made it VM1 </p>
+<p> Selected my region,  </p>
 <br><br>
 
 <img width="715" alt="4" src="https://github.com/user-attachments/assets/e7ed4775-824d-432e-b2a9-484dea9e8772">
 
 <br><br>
 
-<h3>Using Remote Desktop with MacOS</h3>
+<h2>Using Remote Desktop With MacOS</h2>
 <br>
 <img width="429" alt="5 (A)" src="https://github.com/user-attachments/assets/aaf609fe-9ffe-481c-b1b0-9a4ae31e8e71"><br><br>
 
@@ -29,7 +50,7 @@
 <img width="1680" alt="6" src="https://github.com/user-attachments/assets/1877ce8d-8a4a-49a0-b483-ca827787f8b0">
 <br><br>
 
-<h3>Performing Activities on the Network</h3>
+<h2>Performing Activities on the Network</h2>
 <br>
 <img width="694" alt="7" src="https://github.com/user-attachments/assets/85c62eb3-f601-4c3a-b230-b5da00ea9152"> <br><br>
 
