@@ -35,6 +35,7 @@
 <p> - Search for Virtual Machines and hit create </p>
 <p> - Select your resource group, for the virtual machine name I just made it VM1 </p>
 <p> - Selected my region, for availability options set that to "No infrastructure redundancy required", Security type standard, and finally image Windows 10 Pro, version 22H2 x64 Gen2  </p>
+<p> - Make sure for the size you choose at least 2 vcpus so that way it is not going to run slow in Azure</p>
 <br><br>
 
 <img width="715" alt="4" src="https://github.com/user-attachments/assets/e7ed4775-824d-432e-b2a9-484dea9e8772">
