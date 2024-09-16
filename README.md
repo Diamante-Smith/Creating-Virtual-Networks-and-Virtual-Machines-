@@ -1,7 +1,7 @@
 # Creating-Virtual-Networks-and-Virtual-Machines
 
 
-<p>This tutorial provides a comprehensive guide starting with the creation of resource groups for virtual machines, which will be utilized throughout the lab. We’ll then explore remote desktop access specifically from a macOS perspective. Finally, we’ll dive into performing various network-related tasks using the virtual machines, giving you hands-on experience in managing and configuring network activities.</p>
+This tutorial provides a comprehensive guide starting with the creation of resource groups for virtual machines, which will be utilized throughout the lab. We’ll then explore remote desktop access specifically from a macOS perspective. Finally, we’ll dive into performing various network-related tasks using the virtual machines, giving you hands-on experience in managing and configuring network activities.
 
 <h2>Technologies Used</h2>
 
@@ -16,46 +16,67 @@
 - MacOS 
 
 <h2>Creating Our Resources & Virtual Machines </h2> 
-<be>
+<br>
 
 <h3>&#9312; Create The Resource Group</h3>
 
   <img width="386" alt="1" src="https://github.com/user-attachments/assets/59fd6633-f347-40e5-aeb2-0b1b92fd5acc">
-<p> - Go to https://portal.azure.com/#home to get started </p>
-<p> - Once your there click on/ search Resource Groups and afterward click on create </p>
-<p> - For me I named mine RG-LAB-02 as this was my second lab and for the region since i'm located in the Eastcoast East US 2 worked out for me and the other labs</p>
-  <br><be>
+  <br>
+  
+- Go to https://portal.azure.com/#home to get started
+  
+- Once your there click on/ search Resource Groups and afterward click on create
+  
+- For me I named mine RG-LAB-02 as this was my second lab and for the region since i'm located in the Eastcoast East US 2 worked out for me and the other labs
+  <br><br>
 
   <h3>&#9313; Create The Virtual Machine With The Virtual Network</h3>
-<p> Here is the created resource group</p>
+- Here is the created resource group
 <img width="1183" alt="2" src="https://github.com/user-attachments/assets/1ab43f3c-0c42-4dee-abcc-f9c058182d35">
  <br><br>
 
 <img width="696" alt="3" src="https://github.com/user-attachments/assets/b4123cb6-7c80-48eb-9b97-4bbca3f431f6">
-<p> - Search for Virtual Machines and hit create </p>
-<p> - Select your resource group, for the virtual machine name I just made it VM1 </p>
-<p> - Selected my region, for availability options set that to "No infrastructure redundancy required", Security type standard, and finally image Windows 10 Pro, version 22H2 x64 Gen2  </p>
-<p> - Make sure for the size you choose at least 2 vcpus so that way it is not going to run slow in Azure</p>
+<br>
+
+- Search for Virtual Machines and hit create 
+
+- Select your resource group, for the virtual machine name I just made it VM1
+  
+- Selected my region, for availability options set that to "No infrastructure redundancy required", Security type standard, and finally image Windows 10 Pro, version 22H2 x64 Gen2
+  
+- Make sure for the size you choose at least 2 vcpus so that way it is not going to run slow in Azure
 <br><br>
 <img width="1327" alt="Screenshot 2024-07-03 at 5 19 18 PM" src="https://github.com/user-attachments/assets/aefafcab-5794-46d7-b4ae-5fa96c7ad878">
-<p> - When it comes to the networking tab set this exactly like how I got it here in the screenshot </p>
+<br>
+
+- When it comes to the networking tab set this exactly like how I got it here in the screenshot 
 <br><br>
 <img width="715" alt="4" src="https://github.com/user-attachments/assets/e7ed4775-824d-432e-b2a9-484dea9e8772">
 
-- For the second Virtual Machine it will be roughly the same process as the first but what changes for this one is the name which is VM2 and the image of this VM which is Ubuntu Server 24.04 LTS - x64 Gen 2  
+- For the second Virtual Machine it will be roughly the same process as the first but what changes for this one is the name which is VM2 and the image of this VM which is Ubuntu Server 24.04 LTS - x64 Gen 2, this will be the Linux virtual machine
 <br><br>
 <img width="1463" alt="Screenshot 2024-07-03 at 5 22 18 PM" src="https://github.com/user-attachments/assets/5c5d9dd3-078f-4c3e-bcad-cb041535cda2">
-<p> - Here are the 2 VMs that we will be using</p>
+
+- Here are the 2 VMs that we will be using 
+
 <br><br>
 <img width="1354" alt="Screenshot 2024-07-04 at 10 24 18 AM" src="https://github.com/user-attachments/assets/2500969d-7cbe-4c94-922c-50ffc8afd371">
 
-<p> - This is an overview of what everything looks like in the resource group with the 2 virtual machines plus their respective Network Security Groups, Virtual Networks, Disks, and Public IP Addresses </p>
+- This is an overview of what everything looks like in the resource group with the 2 virtual machines plus their respective Network Security Groups, Virtual Networks, Disks, and Public IP Addresses 
+
 <h2>Using Remote Desktop With MacOS</h2>
 
 <br>
-<img width="429" alt="5 (A)" src="https://github.com/user-attachments/assets/aaf609fe-9ffe-481c-b1b0-9a4ae31e8e71"><br><br>
+<img width="429" alt="5 (A)" src="https://github.com/user-attachments/assets/aaf609fe-9ffe-481c-b1b0-9a4ae31e8e71"><br>
 
-<img width="470" alt="5" src="https://github.com/user-attachments/assets/fb9e38e9-3347-410a-ab8c-680c626ababe"><br><br>
+<img width="509" alt="11 (A)" src="https://github.com/user-attachments/assets/0776060c-b0ab-4157-97bf-06a71e51233e"> <br>
+- First make sure both VMs are on the same virtual network
+  
+- If they are then your ready for the next step if not make sure to wait for VM1 to finish and set up creating its virtual network before you start creating VM2
+<br><br>
+<img width="470" alt="5" src="https://github.com/user-attachments/assets/fb9e38e9-3347-410a-ab8c-680c626ababe">
+
+<br><br>
 
 <img width="1680" alt="6" src="https://github.com/user-attachments/assets/1877ce8d-8a4a-49a0-b483-ca827787f8b0">
 <br><br>
