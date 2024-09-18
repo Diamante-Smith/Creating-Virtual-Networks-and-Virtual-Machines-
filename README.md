@@ -30,8 +30,10 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 - For me I named mine RG-LAB-02 as this was my second lab and for the region since i'm located in the Eastcoast East US 2 worked out for me and the other labs
   <br><br>
 
-  <h3>&#9313; Create The Virtual Machine With The Virtual Network</h3>
+<h3>&#9313; Create The Virtual Machine With The Virtual Network</h3>
+
 - Here is the created resource group
+  
 <img width="1183" alt="2" src="https://github.com/user-attachments/assets/1ab43f3c-0c42-4dee-abcc-f9c058182d35">
  <br><br>
 
@@ -54,6 +56,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <img width="715" alt="4" src="https://github.com/user-attachments/assets/e7ed4775-824d-432e-b2a9-484dea9e8772">
 
 - For the second Virtual Machine it will be roughly the same process as the first but what changes for this one is the name which is VM2 and the image of this VM which is Ubuntu Server 24.04 LTS - x64 Gen 2, this will be the Linux virtual machine
+- Make sure to hit password for Authentication type and set a username and password that you will remember, try to write it down
 <br><br>
 <img width="1463" alt="Screenshot 2024-07-03 at 5 22 18 PM" src="https://github.com/user-attachments/assets/5c5d9dd3-078f-4c3e-bcad-cb041535cda2">
 
