@@ -70,13 +70,23 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <h2>Using Remote Desktop With MacOS</h2>
 
 <br>
-<img width="429" alt="5 (A)" src="https://github.com/user-attachments/assets/aaf609fe-9ffe-481c-b1b0-9a4ae31e8e71"><br>
 
-<img width="509" alt="11 (A)" src="https://github.com/user-attachments/assets/0776060c-b0ab-4157-97bf-06a71e51233e"> <br>
-- First make sure both VMs are on the same virtual network
+- First, make sure both VMs are on the same virtual network
   
 - If they are then your ready for the next step if not make sure to wait for VM1 to finish and set up creating its virtual network before you start creating VM2
+<br>
+<img width="429" alt="5 (A)" src="https://github.com/user-attachments/assets/aaf609fe-9ffe-481c-b1b0-9a4ae31e8e71">
+<br>
+
+<img width="509" alt="11 (A)" src="https://github.com/user-attachments/assets/0776060c-b0ab-4157-97bf-06a71e51233e"> <br>
+
 <br><br>
+
+<h3>&#9314; Download Microsoft Remote Desktop </h3>
+<br>
+<img width="287" alt="Screenshot 2024-09-19 at 12 28 36 PM" src="https://github.com/user-attachments/assets/fc0b9142-ae88-4315-9a78-b2649a841455">
+
+- We are going to use remote desktop to connect to our Windows 10 virtual machine
 <img width="470" alt="5" src="https://github.com/user-attachments/assets/fb9e38e9-3347-410a-ab8c-680c626ababe">
 
 <br><br>
