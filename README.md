@@ -86,16 +86,16 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <br>
 <img width="287" alt="Screenshot 2024-09-19 at 12 28 36 PM" src="https://github.com/user-attachments/assets/fc0b9142-ae88-4315-9a78-b2649a841455">
 
-- We are going to use remote desktop to connect to our Windows 10 virtual machine
+- First go to the App store on Mac and download this app. We are going to use remote desktop to connect to our Windows 10 virtual machine
 <img width="470" alt="5" src="https://github.com/user-attachments/assets/fb9e38e9-3347-410a-ab8c-680c626ababe">
 
 - We are going to need to get the Windows 10 virtual IP address
 
 - Scroll to the right and copy the public IP address
   
-- Under the PC name put the public IP address, friendly name anything you want or Windows VM to differentiate, then click add
+- Under the PC name put the public IP address, friendly name anything you want, or Windows VM to differentiate, then click add
   
-- Remember your username and password from before, put that in when clicking to connect to the virttual machine 
+- Remember your username and password from before, put that in when clicking to connect to the virtual machine 
 <br><br>
 
 <img width="1680" alt="6" src="https://github.com/user-attachments/assets/1877ce8d-8a4a-49a0-b483-ca827787f8b0">
@@ -111,13 +111,24 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - When its done downloading open the file and go threw the procedure for installing the software which mostly we will say yes and agree
 
-- Wireshark is a protocol analyzer which lets us do traffic examination and observe traffic between the 2 virtual machines. Let’s us view traffic that's coming in and going to the Windows virtual machine  
+- Wireshark is a protocol analyzer which lets us do traffic examination and observe traffic between the 2 virtual machines. Let’s us view traffic that's coming from and going to the Windows virtual machine  
 
 <br><br>
 
-<img width="1149" alt="8" src="https://github.com/user-attachments/assets/56c55bbb-48a4-4ab5-b554-5b4e3c7af88d"><br><br>
+<img width="1149" alt="8" src="https://github.com/user-attachments/assets/56c55bbb-48a4-4ab5-b554-5b4e3c7af88d">
 
-<img width="1152" alt="9" src="https://github.com/user-attachments/assets/1d0a32c8-98b3-4b39-a8c1-9491fbefa172"><br><br>
+- Once this is opened click on Ethernet and then the blue sharkfin button at the top left under file
+
+<br><br>
+
+- This will show up after you do that to increase the size to look better at the data hold control while pressing ➕
+  
+- This is basically all the network traffic that is happening on the backend of the computer
+   
+<img width="1152" alt="9" src="https://github.com/user-attachments/assets/1d0a32c8-98b3-4b39-a8c1-9491fbefa172">
+
+
+<br><br>
 
 <img width="615" alt="10" src="https://github.com/user-attachments/assets/c8758d7b-da2b-4943-9f82-680ac53e42d0"><br><br>
 
