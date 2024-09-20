@@ -89,14 +89,31 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 - We are going to use remote desktop to connect to our Windows 10 virtual machine
 <img width="470" alt="5" src="https://github.com/user-attachments/assets/fb9e38e9-3347-410a-ab8c-680c626ababe">
 
+- We are going to need to get the Windows 10 virtual IP address
+
+- Scroll to the right and copy the public IP address
+  
+- Under the PC name put the public IP address, friendly name anything you want or Windows VM to differentiate, then click add
+  
+- Remember your username and password from before, put that in when clicking to connect to the virttual machine 
 <br><br>
 
 <img width="1680" alt="6" src="https://github.com/user-attachments/assets/1877ce8d-8a4a-49a0-b483-ca827787f8b0">
+
+- Here is the Virtual Machine which is Windows 10
 <br><br>
 
 <h2>Performing Activities on the Network</h2>
 <br>
-<img width="694" alt="7" src="https://github.com/user-attachments/assets/85c62eb3-f601-4c3a-b230-b5da00ea9152"> <br><br>
+<img width="694" alt="7" src="https://github.com/user-attachments/assets/85c62eb3-f601-4c3a-b230-b5da00ea9152"> 
+
+- We are going to download Wireshark on this virtual machine, here is the link https://www.wireshark.org
+
+- When its done downloading open the file and go threw the procedure for installing the software which mostly we will say yes and agree
+
+- Wireshark is a protocol analyzer which lets us do traffic examination and observe traffic between the 2 virtual machines. Let’s us view traffic that's coming in and going to the Windows virtual machine  
+
+<br><br>
 
 <img width="1149" alt="8" src="https://github.com/user-attachments/assets/56c55bbb-48a4-4ab5-b554-5b4e3c7af88d"><br><br>
 
