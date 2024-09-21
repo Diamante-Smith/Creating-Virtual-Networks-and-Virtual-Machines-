@@ -140,7 +140,17 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <br><br>
 
-<img width="1156" alt="11" src="https://github.com/user-attachments/assets/316ed6a1-c837-47a2-8e0d-4f158a79575a"><br><br>
+<img width="1156" alt="11" src="https://github.com/user-attachments/assets/316ed6a1-c837-47a2-8e0d-4f158a79575a">
+
+- Launch Windows Powershell
+
+- Type ping in the Windows Powershell application, then type the private IP address of the Linux Virtual Machine next to ping as you see in the picture
+
+- We will attempt to ping this IP address from the Windows Virtual Machine
+
+- The feedback we will get from The Linux VM is reply, reply, reply, reply, and in the pink will be a bunch of traffic
+
+<br><br>
 
 <img width="509" alt="11 (A)" src="https://github.com/user-attachments/assets/0776060c-b0ab-4157-97bf-06a71e51233e"><br><br>
 
