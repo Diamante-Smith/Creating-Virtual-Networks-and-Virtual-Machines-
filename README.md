@@ -105,6 +105,8 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <h2>Performing Activities on the Network</h2>
 <br>
+
+<h3>&#9315; Download Wireshark </h3>
 <img width="694" alt="7" src="https://github.com/user-attachments/assets/85c62eb3-f601-4c3a-b230-b5da00ea9152"> 
 
 - We are going to download Wireshark on this virtual machine, here is the link https://www.wireshark.org
@@ -117,20 +119,26 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="1149" alt="8" src="https://github.com/user-attachments/assets/56c55bbb-48a4-4ab5-b554-5b4e3c7af88d">
 
-- Once this is opened click on Ethernet and then the blue sharkfin button at the top left under file
+- Once this is opened click on Ethernet and then the blue sharkfin button at the top left under the file
 
 <br><br>
 
 - This will show up after you do that to increase the size to look better at the data hold control while pressing ➕
   
-- This is basically all the network traffic that is happening on the backend of the computer
+- This is all the network traffic that is happening on the back end of the computer
    
 <img width="1152" alt="9" src="https://github.com/user-attachments/assets/1d0a32c8-98b3-4b39-a8c1-9491fbefa172">
 
 
 <br><br>
 
-<img width="615" alt="10" src="https://github.com/user-attachments/assets/c8758d7b-da2b-4943-9f82-680ac53e42d0"><br><br>
+<img width="615" alt="10" src="https://github.com/user-attachments/assets/c8758d7b-da2b-4943-9f82-680ac53e42d0">
+
+- The next thing we will do is filter for ICMP traffic, first type ICMP in the search bar this will show only ICMP or ping traffic
+
+- This traffic is what ping uses, the ping command is what we use to test connectivity between 2 devices
+
+<br><br>
 
 <img width="1156" alt="11" src="https://github.com/user-attachments/assets/316ed6a1-c837-47a2-8e0d-4f158a79575a"><br><br>
 
