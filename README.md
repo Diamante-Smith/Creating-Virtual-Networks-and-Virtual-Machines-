@@ -32,6 +32,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <h3>&#9313; Create The Virtual Machine With The Virtual Network</h3>
 
+
 - Here is the created resource group
   
 <img width="1183" alt="2" src="https://github.com/user-attachments/assets/1ab43f3c-0c42-4dee-abcc-f9c058182d35">
@@ -50,13 +51,17 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <br><br>
 <img width="1327" alt="Screenshot 2024-07-03 at 5 19 18 PM" src="https://github.com/user-attachments/assets/aefafcab-5794-46d7-b4ae-5fa96c7ad878">
 <br>
+<br>
 
-- When it comes to the networking tab set this exactly like how I got it here in the screenshot 
+- When it comes to the networking tab set this exactly like how I got it here in the screenshot
+  
 <br><br>
 <img width="715" alt="4" src="https://github.com/user-attachments/assets/e7ed4775-824d-432e-b2a9-484dea9e8772">
 
 - For the second Virtual Machine it will be roughly the same process as the first but what changes for this one is the name which is VM2 and the image of this VM which is Ubuntu Server 24.04 LTS - x64 Gen 2, this will be the Linux virtual machine
+  
 - Make sure to hit password for Authentication type and set a username and password that you will remember, try to write it down
+  
 <br><br>
 <img width="1463" alt="Screenshot 2024-07-03 at 5 22 18 PM" src="https://github.com/user-attachments/assets/5c5d9dd3-078f-4c3e-bcad-cb041535cda2">
 
@@ -86,7 +91,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <br>
 <img width="287" alt="Screenshot 2024-09-19 at 12 28 36 PM" src="https://github.com/user-attachments/assets/fc0b9142-ae88-4315-9a78-b2649a841455">
 
-- First go to the App store on Mac and download this app. We are going to use remote desktop to connect to our Windows 10 virtual machine
+- First, go to the App Store on Mac and download this app. We are going to use remote desktop to connect to our Windows 10 virtual machine
 <img width="470" alt="5" src="https://github.com/user-attachments/assets/fb9e38e9-3347-410a-ab8c-680c626ababe">
 
 - We are going to need to get the Windows 10 virtual IP address
@@ -95,12 +100,19 @@ This tutorial provides a comprehensive guide starting with the creation of resou
   
 - Under the PC name put the public IP address, friendly name anything you want, or Windows VM to differentiate, then click add
   
-- Remember your username and password from before, put that in when clicking to connect to the virtual machine 
+- Remember your username and password from before, put that in when clicking to connect to the virtual machine
+
+  
 <br><br>
 
 <img width="1680" alt="6" src="https://github.com/user-attachments/assets/1877ce8d-8a4a-49a0-b483-ca827787f8b0">
 
+<br>
+
+<br>
+
 - Here is the Virtual Machine which is Windows 10
+  
 <br><br>
 
 <h2>Performing Activities on the Network</h2>
@@ -111,7 +123,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - We are going to download Wireshark on this virtual machine, here is the link https://www.wireshark.org
 
-- When its done downloading open the file and go threw the procedure for installing the software which mostly we will say yes and agree
+- When it is done downloading open the file and go through the procedure for installing the software which we will mostly say yes and agree
 
 - Wireshark is a protocol analyzer which lets us do traffic examination and observe traffic between the 2 virtual machines. Let’s us view traffic that's coming from and going to the Windows virtual machine  
 
@@ -140,6 +152,9 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 
 <br><br>
+
+- My private IP address for Linux right now is 10.0.0.5
+  
 <img width="509" alt="11 (A)" src="https://github.com/user-attachments/assets/0776060c-b0ab-4157-97bf-06a71e51233e">
 
 
