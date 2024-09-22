@@ -132,19 +132,23 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <br><br>
 
-<img width="615" alt="10" src="https://github.com/user-attachments/assets/c8758d7b-da2b-4943-9f82-680ac53e42d0">
-
 - The next thing we will do is filter for ICMP traffic, first type ICMP in the search bar this will show only ICMP or ping traffic
 
 - This traffic is what ping uses, the ping command is what we use to test connectivity between 2 devices
+<img width="615" alt="10" src="https://github.com/user-attachments/assets/c8758d7b-da2b-4943-9f82-680ac53e42d0">
+
+
 
 <br><br>
+<img width="509" alt="11 (A)" src="https://github.com/user-attachments/assets/0776060c-b0ab-4157-97bf-06a71e51233e">
+
 
 <img width="1156" alt="11" src="https://github.com/user-attachments/assets/316ed6a1-c837-47a2-8e0d-4f158a79575a">
 
+
 - Launch Windows Powershell
 
-- Type ping in the Windows Powershell application, then type the private IP address of the Linux Virtual Machine next to ping as you see in the picture
+- Type ping in the Windows Powershell application, then type the private IP address of the Linux Virtual Machine next to ping as you see in the picture mine is 10.0.0.5
 
 - We will attempt to ping this IP address from the Windows Virtual Machine
 
@@ -152,7 +156,13 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <br><br>
 
-<img width="509" alt="11 (A)" src="https://github.com/user-attachments/assets/0776060c-b0ab-4157-97bf-06a71e51233e"><br><br>
+
+
+- Once you type in ICMP that should stop all the other spam and let you see the pings that happend
+
+-  
+
+<br><br>
 
 <img width="1026" alt="12" src="https://github.com/user-attachments/assets/c94862ab-57f5-4ac4-b78e-d88357b26127"><br><br>
 
