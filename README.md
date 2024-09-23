@@ -131,11 +131,11 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="1149" alt="8" src="https://github.com/user-attachments/assets/56c55bbb-48a4-4ab5-b554-5b4e3c7af88d">
 
-- Once this is opened click on Ethernet and then the blue sharkfin button at the top left under the file
+- Once this is opened click on Ethernet and then the blue sharkfin button at the top left under File
 
 <br><br>
 
-- This will show up after you do that to increase the size to look better at the data hold control while pressing ➕
+- This will show up after you do that, to increase the size to look better at the data hold control while pressing ➕
   
 - This is all the network traffic that is happening on the back end of the computer
    
@@ -143,6 +143,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 
 <br><br>
+<h3>&#9316; Filter for ICMP Traffic </h3>
 
 - The next thing we will do is filter for ICMP traffic, first type ICMP in the search bar this will show only ICMP or ping traffic
 
@@ -157,6 +158,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
   
 <img width="509" alt="11 (A)" src="https://github.com/user-attachments/assets/0776060c-b0ab-4157-97bf-06a71e51233e">
 
+<h3>&#9317; Launch Windows Powershell </h3>
 
 <img width="1156" alt="11" src="https://github.com/user-attachments/assets/316ed6a1-c837-47a2-8e0d-4f158a79575a">
 
@@ -169,17 +171,18 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - The feedback we will get from The Linux VM is reply, reply, reply, reply, and in the pink will be a bunch of traffic
 
-<br><br>
-
-
-
-- Once you type in ICMP that should stop all the other spam and let you see the pings that happend
-
--  
+- Once you type in ICMP that should stop all the other spam and let you see the pings that happened
 
 <br><br>
 
-<img width="1026" alt="12" src="https://github.com/user-attachments/assets/c94862ab-57f5-4ac4-b78e-d88357b26127"><br><br>
+<img width="1026" alt="12" src="https://github.com/user-attachments/assets/c94862ab-57f5-4ac4-b78e-d88357b26127">
+
+- Press the green shark fin under Edit in Wireshark called "Restart Current Capture" then press continue without saving to clear what’s in pink
+
+- Redo ping again in Powershell, you may see just 4 events happen in there for example reply, reply, reply but in Wireshark, you see a couple events happen because it took captures from the Windows computer source 10.0.0.4 and Destination 10.0.0.5 Linux computer with request and reply back and forth 
+
+
+<br><br>
 
 <img width="1036" alt="13" src="https://github.com/user-attachments/assets/363639c4-1b52-4f03-8a8f-69bd4383c586"><br><br>
 
