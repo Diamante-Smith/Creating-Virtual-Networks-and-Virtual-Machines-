@@ -184,13 +184,13 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <br><br>
 
-- On the left side under the data in pink click on the Ethernet II tab down arrow
+- On the left side beneath the data in pink click on the grey Ethernet II tab down arrow
   
-- The source is the MAC address and the Destination above that is the destination MAC address
+- The Physical Address highlighted/ Source is the MAC address of the computer and the data above that is the Linux computers destination MAC address that we pinged
 -  
 <img width="726" alt="Screenshot 2024-09-24 at 2 29 35 PM" src="https://github.com/user-attachments/assets/460a904c-76ce-4401-8c99-13b38bfe287f">
 
-
+<br><br>
 <img width="1036" alt="13" src="https://github.com/user-attachments/assets/363639c4-1b52-4f03-8a8f-69bd4383c586"><br><br>
 
 <img width="800" alt="14" src="https://github.com/user-attachments/assets/e567af13-3c65-4805-b9e9-e84d0804d353"><br><br>
