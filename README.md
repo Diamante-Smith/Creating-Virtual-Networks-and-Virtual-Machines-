@@ -184,11 +184,19 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <br><br>
 
+<img width="726" alt="Screenshot 2024-09-24 at 2 29 35 PM" src="https://github.com/user-attachments/assets/460a904c-76ce-4401-8c99-13b38bfe287f">
+
 - On the left side beneath the data in pink click on the grey Ethernet II tab down arrow
   
 - The Physical Address highlighted/ Source is the MAC address of the computer and the data above that is the Linux computers destination MAC address that we pinged
--  
-<img width="726" alt="Screenshot 2024-09-24 at 2 29 35 PM" src="https://github.com/user-attachments/assets/460a904c-76ce-4401-8c99-13b38bfe287f">
+  
+<br><br>
+
+- When you expand the Internet Control Message Protocol (ICMP) you can see data the actual payload the data that was sent in the ping
+
+- 
+<img width="764" alt="Screenshot 2024-09-28 at 5 09 00 PM" src="https://github.com/user-attachments/assets/fced515f-f86f-4581-9363-a1a3c4ca64d4">
+
 
 <br><br>
 <img width="1036" alt="13" src="https://github.com/user-attachments/assets/363639c4-1b52-4f03-8a8f-69bd4383c586"><br><br>
