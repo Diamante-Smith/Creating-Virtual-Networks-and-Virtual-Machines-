@@ -202,7 +202,11 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <br><br>
 <img width="1036" alt="13" src="https://github.com/user-attachments/assets/363639c4-1b52-4f03-8a8f-69bd4383c586">
 
--What you see here is the ICMP Echo request so it is from the Windows computer and under that is the reply from the Linux computer
+- What you see here is the ICMP Echo request so it is from the Windows computer and under that is the reply from the Linux computer
+
+- The data in here will essentially be reversed the source and destination possibly being flipped and the IP address source becomes the Linux computer and the destination becomes the Windows computer and this keeps going on throughout all the pings
+
+- Next will do a perpetual Ping put in Windows Powershell Ping the IP address of the Linux computer 10.0.0.5 and then -t this will make the data ping forever while Wireshark captures them as well in the background
 
 <br><br>
 
