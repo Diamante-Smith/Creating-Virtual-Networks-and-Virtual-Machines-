@@ -194,12 +194,17 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - When you expand the Internet Control Message Protocol (ICMP) you can see data the actual payload the data that was sent in the ping
 
-- 
+  
 <img width="764" alt="Screenshot 2024-09-28 at 5 09 00 PM" src="https://github.com/user-attachments/assets/fced515f-f86f-4581-9363-a1a3c4ca64d4">
 
+- The Windows virtual machine source address 10.0.0.4 is the private IP address that would be the IPv4 highlighted in the Windows Power shell 
 
 <br><br>
-<img width="1036" alt="13" src="https://github.com/user-attachments/assets/363639c4-1b52-4f03-8a8f-69bd4383c586"><br><br>
+<img width="1036" alt="13" src="https://github.com/user-attachments/assets/363639c4-1b52-4f03-8a8f-69bd4383c586">
+
+-What you see here is the ICMP Echo request so it is from the Windows computer and under that is the reply from the Linux computer
+
+<br><br>
 
 <img width="800" alt="14" src="https://github.com/user-attachments/assets/e567af13-3c65-4805-b9e9-e84d0804d353"><br><br>
 
