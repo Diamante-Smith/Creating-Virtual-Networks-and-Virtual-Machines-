@@ -206,11 +206,17 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - The data in here will essentially be reversed the source and destination possibly being flipped and the IP address source becomes the Linux computer and the destination becomes the Windows computer and this keeps going on throughout all the pings
 
-- Next will do a perpetual Ping put in Windows Powershell Ping the IP address of the Linux computer 10.0.0.5 and then -t this will make the data ping forever while Wireshark captures them as well in the background
+- Next, we will do a perpetual Ping put in Windows Powershell Ping the IP address of the Linux computer 10.0.0.5 and then -t this will make the data ping forever while Wireshark captures them as well in the background
 
 <br><br>
+<h3>&#9316; Block all incoming ping traffic </h3>
 
-<img width="800" alt="14" src="https://github.com/user-attachments/assets/e567af13-3c65-4805-b9e9-e84d0804d353"><br><br>
+<img width="800" alt="14" src="https://github.com/user-attachments/assets/e567af13-3c65-4805-b9e9-e84d0804d353">
+
+In this step, we are going to block all incoming ping traffic and then observe what happens afterward 
+
+- Go ahead and jump straight into your Linux virtual machine, hit the networking down arrow, then hit network settings 
+<br><br>
 
 <img width="1447" alt="15" src="https://github.com/user-attachments/assets/37751a88-ec8f-435a-9b91-e42ad8b128bc"><br><br>
 
