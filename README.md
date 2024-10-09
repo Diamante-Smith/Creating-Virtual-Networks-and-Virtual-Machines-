@@ -194,9 +194,10 @@ This tutorial provides a comprehensive guide starting with the creation of resou
   
 <br><br>
 
-- When you expand the Internet Protocol A.K.A representative of the network layer of the OSI model layer 3 you can see 
+- When you expand the Internet Protocol A.K.A representative of the network layer of the OSI model layer 3 you can see the source address and destination address
 
 <img width="764" alt="Screenshot 2024-09-28 at 5 09 00 PM" src="https://github.com/user-attachments/assets/fced515f-f86f-4581-9363-a1a3c4ca64d4">
+<br><br>
 
 - The Windows virtual machine source address 10.0.0.4 is the private IP address that would be the IPv4 highlighted in the Windows Power shell with 10.0.0.5 in Wireshark being the Linux VM's Private IP address
 
@@ -208,7 +209,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="1036" alt="13" src="https://github.com/user-attachments/assets/363639c4-1b52-4f03-8a8f-69bd4383c586">
 
-- What you see here is the ICMP Echo request so it is from the Windows computer and under that is the reply from the Linux computer
+- What you see here is the ICMP Echo request so it is from the Windows computer and under that is the Echo reply from the Linux computer
 
 - The data in here will essentially be reversed the source and destination possibly being flipped and the IP address source becomes the Linux computer and the destination becomes the Windows computer and this keeps going on throughout all the pings
 
@@ -219,7 +220,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="800" alt="14" src="https://github.com/user-attachments/assets/e567af13-3c65-4805-b9e9-e84d0804d353">
 
-- In this step, we are going to block all incoming ping traffic and then observe what happens afterward 
+- In this step, we are going to block all incoming ping traffic coming from the Windows Virtual Machine to the Linux Virtual Machine and then observe what happens afterward 
 
 - Go ahead and jump straight into your Linux virtual machine in the Azure portal, hit the networking down arrow, then hit network settings 
 <br><br>
