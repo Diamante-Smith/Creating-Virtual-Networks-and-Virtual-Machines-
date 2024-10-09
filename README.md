@@ -179,20 +179,22 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - Press the green shark fin under Edit in Wireshark called "Restart Current Capture" then press continue without saving to clear what’s in pink
 
-- Redo ping again in Powershell, you may see just 4 events happen in there for example reply, reply, reply but in Wireshark, you see a couple events happen because it took captures from the Windows computer source 10.0.0.4 and Destination 10.0.0.5 Linux computer with request and reply back and forth 
+- Redo ping again in Powershell, you may see just 4 events happen in there for example reply, reply, reply but in Wireshark, you see a couple of events happen because it captured both the request from the Windows computer A.K.A source 10.0.0.4 and captured the reply from the Destination A.K.A 10.0.0.5 Linux computer with a request from the Windows computer and reply from the Linux Computer back and forth 
 
 
 <br><br>
 
 <img width="726" alt="Screenshot 2024-09-24 at 2 29 35 PM" src="https://github.com/user-attachments/assets/460a904c-76ce-4401-8c99-13b38bfe287f">
 
-- On the left side beneath the data in pink click on the grey Ethernet II tab down arrow
+- On the left side beneath the data in pink click on the grey Ethernet II tab down arrow and what you see highlighted starting with Source: refers to the Physical address in Powershell
   
-- The Physical Address highlighted/ Source is the MAC address of the computer and the data above that is the Linux computers destination MAC address that we pinged
+- In Windows Powershell type ipconfig /all and hit enter
+  
+- The Physical Address highlighted is also the Source for the MAC address of the Windows VM and the data above is the Linux computer destination MAC address that we pinged
   
 <br><br>
 
-- When you expand the Internet Control Message Protocol (ICMP) you can see data the actual payload the data that was sent in the ping
+- When you expand the Internet Control Message Protocol (ICMP) representative of the network layer you can see data the actual payload the data that was sent in the ping
 
   
 <img width="764" alt="Screenshot 2024-09-28 at 5 09 00 PM" src="https://github.com/user-attachments/assets/fced515f-f86f-4581-9363-a1a3c4ca64d4">
