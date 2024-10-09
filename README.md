@@ -190,16 +190,21 @@ This tutorial provides a comprehensive guide starting with the creation of resou
   
 - In Windows Powershell type ipconfig /all and hit enter
   
-- The Physical Address highlighted is also the Source for the MAC address of the Windows VM and the data above is the Linux computer destination MAC address that we pinged
+- The Physical Address highlighted is also the Source for the MAC address of the Windows VM and back to Wireshark the data above Source: is the Linux computer destination MAC address that we pinged
   
 <br><br>
 
-- When you expand the Internet Control Message Protocol (ICMP) representative of the network layer you can see data the actual payload the data that was sent in the ping
+- When you expand the Internet Protocol A.K.A representative of the network layer of the OSI model layer 3 you can see 
 
-  
 <img width="764" alt="Screenshot 2024-09-28 at 5 09 00 PM" src="https://github.com/user-attachments/assets/fced515f-f86f-4581-9363-a1a3c4ca64d4">
 
-- The Windows virtual machine source address 10.0.0.4 is the private IP address that would be the IPv4 highlighted in the Windows Power shell 
+- The Windows virtual machine source address 10.0.0.4 is the private IP address that would be the IPv4 highlighted in the Windows Power shell
+  
+- When you expand the Internet Control Message Protocol (ICMP) you can see data the actual payload the data that was sent in the ping
+
+
+  
+
 
 <br><br>
 <img width="1036" alt="13" src="https://github.com/user-attachments/assets/363639c4-1b52-4f03-8a8f-69bd4383c586">
