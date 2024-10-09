@@ -198,15 +198,14 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="764" alt="Screenshot 2024-09-28 at 5 09 00 PM" src="https://github.com/user-attachments/assets/fced515f-f86f-4581-9363-a1a3c4ca64d4">
 
-- The Windows virtual machine source address 10.0.0.4 is the private IP address that would be the IPv4 highlighted in the Windows Power shell
-  
+- The Windows virtual machine source address 10.0.0.4 is the private IP address that would be the IPv4 highlighted in the Windows Power shell with 10.0.0.5 in Wireshark being the Linux VM's Private IP address
+
+<img width="340" alt="Screenshot 2024-10-09 at 1 45 31 PM" src="https://github.com/user-attachments/assets/b5514d71-0641-4e89-8e61-d9c786f8d284">
+
 - When you expand the Internet Control Message Protocol (ICMP) you can see data the actual payload the data that was sent in the ping
 
-
-  
-
-
 <br><br>
+
 <img width="1036" alt="13" src="https://github.com/user-attachments/assets/363639c4-1b52-4f03-8a8f-69bd4383c586">
 
 - What you see here is the ICMP Echo request so it is from the Windows computer and under that is the reply from the Linux computer
@@ -216,13 +215,13 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 - Next, we will do a perpetual Ping put in Windows Powershell Ping the IP address of the Linux computer 10.0.0.5 and then -t this will make the data ping forever while Wireshark captures them as well in the background
 
 <br><br>
-<h3>&#9316; Block all incoming ping traffic </h3>
+<h3>&#9318; Configuring a firewall to Block all incoming ping traffic </h3>
 
 <img width="800" alt="14" src="https://github.com/user-attachments/assets/e567af13-3c65-4805-b9e9-e84d0804d353">
 
-In this step, we are going to block all incoming ping traffic and then observe what happens afterward 
+- In this step, we are going to block all incoming ping traffic and then observe what happens afterward 
 
-- Go ahead and jump straight into your Linux virtual machine, hit the networking down arrow, then hit network settings 
+- Go ahead and jump straight into your Linux virtual machine in the Azure portal, hit the networking down arrow, then hit network settings 
 <br><br>
 
 <img width="1447" alt="15" src="https://github.com/user-attachments/assets/37751a88-ec8f-435a-9b91-e42ad8b128bc"><br><br>
