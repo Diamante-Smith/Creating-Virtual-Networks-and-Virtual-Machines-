@@ -203,7 +203,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="340" alt="Screenshot 2024-10-09 at 1 45 31 PM" src="https://github.com/user-attachments/assets/b5514d71-0641-4e89-8e61-d9c786f8d284">
 
-- When you expand the Internet Control Message Protocol (ICMP) you can see data the actual payload the data that was sent in the ping
+- When you expand the Internet Control Message Protocol (ICMP) you can see data the actual payload of the data that was sent in the ping
 
 <br><br>
 
@@ -213,7 +213,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - The data in here will essentially be reversed the source and destination possibly being flipped and the IP address source becomes the Linux computer and the destination becomes the Windows computer and this keeps going on throughout all the pings
 
-- Next, we will do a perpetual Ping put in Windows Powershell Ping the IP address of the Linux computer 10.0.0.5 and then -t this will make the data ping forever while Wireshark captures them as well in the background
+- Next, we will do a perpetual Ping put in Windows Powershell Ping the IP address of the Linux computer 10.0.0.5 and then -t example (ping 10.0.0.5 -t) this will make the data ping forever while Wireshark captures them as well in the background
 
 <br><br>
 <h3>&#9318; Configuring a firewall to Block all incoming ping traffic </h3>
@@ -222,10 +222,20 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - In this step, we are going to block all incoming ping traffic coming from the Windows Virtual Machine to the Linux Virtual Machine and then observe what happens afterward 
 
-- Go ahead and jump straight into your Linux virtual machine in the Azure portal, hit the networking down arrow, then hit network settings 
+- Go ahead and jump straight into your Linux virtual machine in the Azure portal, hit the networking down arrow, then hit network settings
+  
+  <img width="140" alt="Screenshot 2024-10-10 at 4 27 08 PM" src="https://github.com/user-attachments/assets/7a0c860d-8180-4ffa-9261-dcfb95b77183">
+
+- In the networking settings you will find the Network Security Group and beneath that click Linux-vm-nsg
+
+- This is the firewall for the Linux computer
 <br><br>
 
-<img width="1447" alt="15" src="https://github.com/user-attachments/assets/37751a88-ec8f-435a-9b91-e42ad8b128bc"><br><br>
+<img width="1447" alt="15" src="https://github.com/user-attachments/assets/37751a88-ec8f-435a-9b91-e42ad8b128bc">
+
+-For this step hit drop-down arrow for settings
+
+<br><br>
 
 <img width="352" alt="16" src="https://github.com/user-attachments/assets/2bae8d71-f9bf-4403-9d87-6ef495cd50dc"><br><br>
 
