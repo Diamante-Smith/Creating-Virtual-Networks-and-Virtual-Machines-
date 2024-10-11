@@ -233,7 +233,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="1447" alt="15" src="https://github.com/user-attachments/assets/37751a88-ec8f-435a-9b91-e42ad8b128bc">
 
--For this step hit drop-down arrow for settings
+- For this step hit drop-down arrow for settings and click on inbound security rules, with this we will create a rule for traffic coming inbound to the virtual machine
 
 <br><br>
 
