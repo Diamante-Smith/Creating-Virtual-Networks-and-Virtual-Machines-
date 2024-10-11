@@ -232,12 +232,27 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <br><br>
 
 <img width="1447" alt="15" src="https://github.com/user-attachments/assets/37751a88-ec8f-435a-9b91-e42ad8b128bc">
-
+<br>
 - For this step hit drop-down arrow for settings and click on inbound security rules, with this we will create a rule for traffic coming inbound to the virtual machine
 
+<img width="599" alt="Screenshot 2024-10-11 at 2 51 18 PM" src="https://github.com/user-attachments/assets/8a519d7d-4d5e-4ef1-a0bb-c9a7fdc39275">
+
+- Click on Add to begin the process of creating a rule
 <br><br>
 
-<img width="352" alt="16" src="https://github.com/user-attachments/assets/2bae8d71-f9bf-4403-9d87-6ef495cd50dc"><br><br>
+<img width="352" alt="16" src="https://github.com/user-attachments/assets/2bae8d71-f9bf-4403-9d87-6ef495cd50dc">
+
+- What I have displayed is what you should put in
+
+- There is an asterisk (which is referred to as any) placed in the destination port since ICMP doesn’t use a port
+
+- Deny is selected to prevent ICMP from being pinged so the firewall will drop the traffic
+
+- Priority is set to 290 because it would allow the rule to be evaluated first
+
+- Then hit add
+
+<br><br>
 
 <img width="347" alt="17" src="https://github.com/user-attachments/assets/82a8711e-942f-4858-83f5-a593b031aa6e"><br><br>
 
