@@ -285,7 +285,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="727" alt="21" src="https://github.com/user-attachments/assets/d94641cb-aea4-45b0-81d7-bf4afb35c8da">
 
-- Once the Azure resource manager picks up the requests then everything will flow back to normal before we make that Deny (firewall) rule
+- Once the Azure resource manager picks up the requests then everything will flow back to normal like before we made that Deny (firewall) rule
 
 - Stop the ping activity with Control + C before moving on to the next step
 
