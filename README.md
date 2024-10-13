@@ -233,7 +233,8 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="1447" alt="15" src="https://github.com/user-attachments/assets/37751a88-ec8f-435a-9b91-e42ad8b128bc">
 <br>
-- For this step hit drop-down arrow for settings and click on inbound security rules, with this we will create a rule for traffic coming inbound to the virtual machine
+
+- For this step hit the drop-down arrow for settings and click on inbound security rules, with this we will create a rule for traffic coming inbound to the virtual machine
 
 <img width="599" alt="Screenshot 2024-10-11 at 2 51 18 PM" src="https://github.com/user-attachments/assets/8a519d7d-4d5e-4ef1-a0bb-c9a7fdc39275">
 
@@ -254,7 +255,11 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <br><br>
 
-<img width="347" alt="17" src="https://github.com/user-attachments/assets/82a8711e-942f-4858-83f5-a593b031aa6e"><br><br>
+<img width="347" alt="17" src="https://github.com/user-attachments/assets/82a8711e-942f-4858-83f5-a593b031aa6e">
+
+- As you can see once the rule takes effect in Powershell everything will start to time out because the Linux virtual machine will begin to ignore the traffic and not reply to it
+
+<br><br>
 
 <img width="1119" alt="18" src="https://github.com/user-attachments/assets/cdf4f238-08e0-4a55-8ed5-681f3f56867c"><br><br>
 
