@@ -258,7 +258,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <img width="347" alt="17" src="https://github.com/user-attachments/assets/82a8711e-942f-4858-83f5-a593b031aa6e">
 
 
-- As you can see in once the rule takes effect in Powershell everything will start to time out because the Linux virtual machine will begin to ignore the traffic and not reply to it
+- As you can see once the rule takes effect in Powershell everything will start to time out because the Linux virtual machine will begin to ignore the traffic and not reply to it
 
 - The rule we made denies incoming ICMP traffic from any source to any destination for the Linux virtual machine 
 
@@ -280,11 +280,18 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="782" alt="20" src="https://github.com/user-attachments/assets/7850a198-f879-4b1a-9b12-a6b9683439d0">
 
-- Once 
+
+<br>
+
+<img width="727" alt="21" src="https://github.com/user-attachments/assets/d94641cb-aea4-45b0-81d7-bf4afb35c8da">
+
+- Once the Azure resource manager picks up the requests then everything will flow back to normal before we make that Deny (firewall) rule
+
+- Stop the ping activity with Control + C before moving on to the next step
 
 <br><br>
 
-<img width="727" alt="21" src="https://github.com/user-attachments/assets/d94641cb-aea4-45b0-81d7-bf4afb35c8da"><br><br>
+<h3>&#9316; Observe SSH traffic </h3>
 
 <img width="1060" alt="22" src="https://github.com/user-attachments/assets/4c1357e8-9119-4725-865e-f082e03ca728"><br><br>
 
