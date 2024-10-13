@@ -1,4 +1,7 @@
-# Creating-Virtual-Networks-and-Virtual-Machines
+
+![6320f4525eab744205bc21b6_Microsoft-Azure-Logo](https://github.com/user-attachments/assets/9cd1e085-8a21-48c1-bab9-07e21fd18ded)
+
+<h1> Creating Virtual Networks and Virtual Machines </h1>
 
 
 This tutorial provides a comprehensive guide starting with the creation of resource groups for virtual machines, which will be utilized throughout the lab. We’ll then explore remote desktop access specifically from a macOS perspective. Finally, we’ll dive into performing various network-related tasks using the virtual machines, giving you hands-on experience in managing and configuring network activities.
