@@ -253,19 +253,36 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - Then hit add
 
-<br><br>
+<br>
 
 <img width="347" alt="17" src="https://github.com/user-attachments/assets/82a8711e-942f-4858-83f5-a593b031aa6e">
 
-- As you can see once the rule takes effect in Powershell everything will start to time out because the Linux virtual machine will begin to ignore the traffic and not reply to it
+
+- As you can see in once the rule takes effect in Powershell everything will start to time out because the Linux virtual machine will begin to ignore the traffic and not reply to it
+
+- The rule we made denies incoming ICMP traffic from any source to any destination for the Linux virtual machine 
 
 <br><br>
 
-<img width="1119" alt="18" src="https://github.com/user-attachments/assets/cdf4f238-08e0-4a55-8ed5-681f3f56867c"><br><br>
+<img width="1119" alt="18" src="https://github.com/user-attachments/assets/cdf4f238-08e0-4a55-8ed5-681f3f56867c">
 
-<img width="423" alt="19" src="https://github.com/user-attachments/assets/f5542cd3-bc37-455b-b24f-eeaa448e248e"><br><br>
+- In Wireshark what also changed is that instead of getting a steady request/ reply response it changed to just request because no response was found and the firewall is blocking the replies
 
-<img width="782" alt="20" src="https://github.com/user-attachments/assets/7850a198-f879-4b1a-9b12-a6b9683439d0"><br><br>
+- P.S. This can go on forever
+  
+<br><br>
+
+<img width="423" alt="19" src="https://github.com/user-attachments/assets/f5542cd3-bc37-455b-b24f-eeaa448e248e">
+
+- For this, we will be turning back on the Allow action for ICMP so that it can get a reply, to do that go back to Virtual Machines -> linux-vm -> Networking -> Network settings -> click on the highlighted Network security group -> Inbound security rules -> you can choose to delete or edit the rule
+  
+<br><br>
+
+<img width="782" alt="20" src="https://github.com/user-attachments/assets/7850a198-f879-4b1a-9b12-a6b9683439d0">
+
+- Once 
+
+<br><br>
 
 <img width="727" alt="21" src="https://github.com/user-attachments/assets/d94641cb-aea4-45b0-81d7-bf4afb35c8da"><br><br>
 
