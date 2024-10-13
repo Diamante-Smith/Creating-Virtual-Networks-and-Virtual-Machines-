@@ -291,7 +291,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <br><br>
 
-<h3>&#9316; Observe SSH traffic </h3>
+<h3>&#9319; Observe SSH traffic </h3>
 
 <img width="1060" alt="22" src="https://github.com/user-attachments/assets/4c1357e8-9119-4725-865e-f082e03ca728"><br><br>
 
