@@ -298,14 +298,16 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="1060" alt="22" src="https://github.com/user-attachments/assets/4c1357e8-9119-4725-865e-f082e03ca728">
 
-- SHH (Secure Shell) is used to make a secure connection from 1 computer to another computer 
+- SSH (Secure Shell) is used to make a secure connection from 1 computer to another computer, it uses TCP port 22
 
-- In Wireshark, we are going to
+- In Wireshark, we are going to type in SSH to filter for that traffic 
 
 - 
 <br><br>
 
-<img width="639" alt="23" src="https://github.com/user-attachments/assets/abef1814-17fd-4e1b-9f5e-c637cc6ed52a"><br><br>
+<img width="639" alt="23" src="https://github.com/user-attachments/assets/abef1814-17fd-4e1b-9f5e-c637cc6ed52a">
+
+<br><br>
 
 <img width="607" alt="24" src="https://github.com/user-attachments/assets/41e6663f-0a91-4104-92f4-737a257abb67"><br><br>
 
