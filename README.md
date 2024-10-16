@@ -307,7 +307,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 - go back to your Windows VM and Open Windows Powershell, type in ssh labuser@10.0.0.5, and press enter to connect to the Linux VM with SSH, confirm a yes again to continue connecting
 
 - Finally enter the password you made for labuser
-- 
+  
 <br><br>
 
 <img width="639" alt="23" src="https://github.com/user-attachments/assets/abef1814-17fd-4e1b-9f5e-c637cc6ed52a">
@@ -326,17 +326,32 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - Type uname -a this will give out stuff about the operating system
 
--  
+- Type pwd shows the labuser file path
+
+- Type touch file.txt this creates a file on the Linux machine
+
+- Type ls shows that the file was created
 
 <br><br>
 
+<img width="1114" alt="28" src="https://github.com/user-attachments/assets/9dda896b-60a9-4bcb-8d56-b88ae75335d9">
+
+-
+<br><br>
+
+<img width="236" alt="26" src="https://github.com/user-attachments/assets/c38cb7e6-761a-40fd-a25b-9ba52c6b0bf0">
+
+-
+<br><br>
+
+
 <img width="454" alt="25" src="https://github.com/user-attachments/assets/07c8687e-878b-4036-84a6-ddeadaccd877"><br><br>
 
-<img width="236" alt="26" src="https://github.com/user-attachments/assets/c38cb7e6-761a-40fd-a25b-9ba52c6b0bf0"><br><br>
+
 
 <img width="637" alt="27" src="https://github.com/user-attachments/assets/f7c1fd87-1b5b-4ea1-8606-b58b9fd3eb4f"><br><br>
 
-<img width="1114" alt="28" src="https://github.com/user-attachments/assets/9dda896b-60a9-4bcb-8d56-b88ae75335d9"><br><br>
+
 
 <img width="665" alt="29" src="https://github.com/user-attachments/assets/39e9fcdf-a542-4270-80bf-18efeaa82299"><br><br>
 
