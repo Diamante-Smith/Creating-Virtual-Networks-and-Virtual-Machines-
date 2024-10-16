@@ -300,16 +300,35 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - SSH (Secure Shell) is used to make a secure connection from 1 computer to another computer, it uses TCP port 22
 
-- In Wireshark, we are going to type in SSH to filter for that traffic 
+- In Wireshark, we are going to type in SSH to filter for that traffic
 
+- Go to your Linux VM and copy the private IP address located in Overview -> Properties 
+
+- go back to your Windows VM and Open Windows Powershell, type in ssh labuser@10.0.0.5, and press enter to connect to the Linux VM with SSH, confirm a yes again to continue connecting
+
+- Finally enter the password you made for labuser
 - 
 <br><br>
 
 <img width="639" alt="23" src="https://github.com/user-attachments/assets/abef1814-17fd-4e1b-9f5e-c637cc6ed52a">
 
+
+- The prompt looks different now because we are connected to the Linux machine
+
+
 <br><br>
 
-<img width="607" alt="24" src="https://github.com/user-attachments/assets/41e6663f-0a91-4104-92f4-737a257abb67"><br><br>
+<img width="607" alt="24" src="https://github.com/user-attachments/assets/41e6663f-0a91-4104-92f4-737a257abb67">
+
+- Type id this is our user id labuser
+
+- Type hostname mine is Linux VM2
+
+- Type uname -a this will give out stuff about the operating system
+
+-  
+
+<br><br>
 
 <img width="454" alt="25" src="https://github.com/user-attachments/assets/07c8687e-878b-4036-84a6-ddeadaccd877"><br><br>
 
