@@ -336,14 +336,19 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="1114" alt="28" src="https://github.com/user-attachments/assets/9dda896b-60a9-4bcb-8d56-b88ae75335d9">
 
--
+- Instead of SSH In Wireshark type in tcp.port==22 this will filter out all of the traffic that uses TCP port 22 
+  
+- Type in PowerShell ls and press enter because SSH uses TCP port 22 we can see in Wireshark it is being filtered out 
 <br><br>
 
 <img width="236" alt="26" src="https://github.com/user-attachments/assets/c38cb7e6-761a-40fd-a25b-9ba52c6b0bf0">
 
--
+- Type in Powershell exit this will drop the connection and log us out
+  
+- Type in hostname just to verify which VM you are back in
+  
 <br><br>
-
+<h3>&#9319; Observe DHCP traffic </h3>
 
 <img width="454" alt="25" src="https://github.com/user-attachments/assets/07c8687e-878b-4036-84a6-ddeadaccd877"><br><br>
 
