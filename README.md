@@ -348,19 +348,19 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 - Type in hostname just to verify which VM you are back in
   
 <br><br>
-<h3>&#9319; Observe DHCP traffic </h3>
-
-<img width="454" alt="25" src="https://github.com/user-attachments/assets/07c8687e-878b-4036-84a6-ddeadaccd877"><br><br>
+<h3>&#9320; Observe DHCP traffic </h3>
 
 
 
-<img width="637" alt="27" src="https://github.com/user-attachments/assets/f7c1fd87-1b5b-4ea1-8606-b58b9fd3eb4f"><br><br>
+<img width="934" alt="30" src="https://github.com/user-attachments/assets/bb7359ca-ae43-4fbf-8594-47413b23cb72">
 
+- In Wireshark, we are going to filter for DHCP
 
+- Type in DHCP at the top
 
-<img width="665" alt="29" src="https://github.com/user-attachments/assets/39e9fcdf-a542-4270-80bf-18efeaa82299"><br><br>
+- 
 
-<img width="934" alt="30" src="https://github.com/user-attachments/assets/bb7359ca-ae43-4fbf-8594-47413b23cb72"><br><br>
+<br><br>
 
 
 <img width="1120" alt="31" src="https://github.com/user-attachments/assets/08659088-37f5-4340-a534-b810ef861dd2"><br><br>
