@@ -358,13 +358,23 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - Type in DHCP at the top of Wireshark and then back in Powershell type in ipconfig /renew then hit enter
 
-- 
+- **20:14
 
 -
 <br><br>
 
+<h3>&#9320; Observe DNS traffic </h3>
 
-<img width="1120" alt="31" src="https://github.com/user-attachments/assets/08659088-37f5-4340-a534-b810ef861dd2"><br><br>
+<img width="1120" alt="31" src="https://github.com/user-attachments/assets/08659088-37f5-4340-a534-b810ef861dd2">
+
+- First we are going to filter out DNS traffic
+  
+- Type in the filter dns hit enter
+
+- There will be a lot of DNS activity to make our own hit the green sharkfin at the top to restart this capture then press continue without saving to start off fresh
+
+- 
+<br><br>
 
 <img width="1143" alt="32" src="https://github.com/user-attachments/assets/16281162-e100-407f-8ff9-2d1d4ede39e3"><br><br>
 
