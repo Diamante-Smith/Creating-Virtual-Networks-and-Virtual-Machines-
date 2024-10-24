@@ -354,12 +354,13 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="934" alt="30" src="https://github.com/user-attachments/assets/bb7359ca-ae43-4fbf-8594-47413b23cb72">
 
-- In Wireshark, we are going to filter for DHCP
+- In Wireshark, we are going to filter for DHCP traffic only
 
-- Type in DHCP at the top
+- Type in DHCP at the top of Wireshark and then back in Powershell type in ipconfig /renew then hit enter
 
 - 
 
+-
 <br><br>
 
 
