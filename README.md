@@ -345,7 +345,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - Type in Powershell exit this will drop the connection and log us out
   
-- Type in hostname just to verify which VM you are back in
+- Type in hostname to verify which VM you are back in
   
 <br><br>
 <h3>&#9320; Observe DHCP traffic </h3>
@@ -363,22 +363,32 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 -
 <br><br>
 
-<h3>&#9320; Observe DNS traffic </h3>
+<h3>&#9321; Observe DNS traffic </h3>
 
 <img width="1120" alt="31" src="https://github.com/user-attachments/assets/08659088-37f5-4340-a534-b810ef861dd2">
 
-- First we are going to filter out DNS traffic
+- First, we are going to filter out DNS traffic
   
 - Type in the filter dns hit enter
 
-- There will be a lot of DNS activity to make our own hit the green sharkfin at the top to restart this capture then press continue without saving to start off fresh
-
-- 
+- There will be a lot of DNS activity to make our own hit the green sharkfin at the top to restart this capture then press continue without saving to start fresh
 <br><br>
 
-<img width="1143" alt="32" src="https://github.com/user-attachments/assets/16281162-e100-407f-8ff9-2d1d4ede39e3"><br><br>
+<img width="600" alt="33" src="https://github.com/user-attachments/assets/0a348b78-6e73-4f50-b24e-b0e17dd1b30b">
 
-<img width="600" alt="33" src="https://github.com/user-attachments/assets/0a348b78-6e73-4f50-b24e-b0e17dd1b30b"><br><br>
+- we are going to look for the IP address of disney.com
+- In PowerShell type in  
+
+<br><br>
+
+<img width="1143" alt="32" src="https://github.com/user-attachments/assets/16281162-e100-407f-8ff9-2d1d4ede39e3">
+
+
+-
+
+<br><br>
+
+
 
 <img width="1149" alt="34" src="https://github.com/user-attachments/assets/f8452888-503c-4793-8ef9-cb49428530c2"><br><br>
 
