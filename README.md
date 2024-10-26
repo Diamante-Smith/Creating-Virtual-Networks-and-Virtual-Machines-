@@ -382,16 +382,19 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - Once the computer reaches out to the DNS server the DNS server will find out and then tell us the IP address with a bunch of traffic following up behind
 
-30:10
 
-- 
+- Disney.com resolves to the IP address 130.211.198.204
 
 <br><br>
 
 <img width="1143" alt="32" src="https://github.com/user-attachments/assets/16281162-e100-407f-8ff9-2d1d4ede39e3">
 
 
--
+- This is spam that happened on the back end of the nslookup for Disney
+
+- DNS (resolves host names like human-readable names into IP addresses)
+
+- If you copy and paste the address 130.211.198.204 in a browser it will show something in correlation to Disney sometimes 
 
 <br><br>
 
