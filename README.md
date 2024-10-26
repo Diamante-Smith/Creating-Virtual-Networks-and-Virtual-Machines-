@@ -377,7 +377,14 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <img width="600" alt="33" src="https://github.com/user-attachments/assets/0a348b78-6e73-4f50-b24e-b0e17dd1b30b">
 
 - we are going to look for the IP address of disney.com
-- In PowerShell type in  
+
+- In PowerShell type in nslookup disney.com and hit enter
+
+- Once the computer reaches out to the DNS server the DNS server will find out and then tell us the IP address with a bunch of traffic following up behind
+
+30:10
+
+- 
 
 <br><br>
 
