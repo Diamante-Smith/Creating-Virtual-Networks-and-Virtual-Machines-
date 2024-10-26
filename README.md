@@ -394,15 +394,33 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - DNS (resolves host names like human-readable names into IP addresses)
 
-- If you copy and paste the address 130.211.198.204 in a browser it will show something in correlation to Disney sometimes 
+- If you copy and paste the address 130.211.198.204 in a browser it will show something in correlation to Disney sometimes
+
+- Sometimes you can load a modern website based on the IP address
+
+- 31:21
 
 <br><br>
 
 
 
-<img width="1149" alt="34" src="https://github.com/user-attachments/assets/f8452888-503c-4793-8ef9-cb49428530c2"><br><br>
+<img width="1149" alt="34" src="https://github.com/user-attachments/assets/f8452888-503c-4793-8ef9-cb49428530c2">
 
-<img width="599" alt="35" src="https://github.com/user-attachments/assets/7d7c7176-6bc4-46e3-8901-64485e385795"><br><br>
+- DNS uses TCP and UDP port 53
+
+- In Wireshark type in udp.port==53 and you will still see all the DNS traffic the double equal sign means or
+
+- DNS uses TCP in between DNS servers when they are sharing information, but when your computer looks up DNS records it uses UDP 
+
+<br><br>
+
+<h3>&#9322; Observe RDP traffic </h3>
+
+<img width="599" alt="35" src="https://github.com/user-attachments/assets/7d7c7176-6bc4-46e3-8901-64485e385795">
+
+- RDP (is used when remotely connecting from 1 computer to another to gain a remote desktop  GUI. The computer being connected is typically "listening" for a connection on TCP port 3389
+
+<br><br>
 
 
 
