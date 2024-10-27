@@ -418,7 +418,9 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="599" alt="35" src="https://github.com/user-attachments/assets/7d7c7176-6bc4-46e3-8901-64485e385795">
 
-- RDP (is used when remotely connecting from 1 computer to another to gain a remote desktop  GUI. The computer being connected is typically "listening" for a connection on TCP port 3389
+- RDP (is used when remotely connecting from 1 computer to another to gain a remote desktop  GUI, the computer being connected is typically "listening" for a connection on TCP port 3389
+
+- 
 
 <br><br>
 
