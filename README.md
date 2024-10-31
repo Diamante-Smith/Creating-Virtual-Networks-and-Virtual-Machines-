@@ -126,9 +126,15 @@ This tutorial provides a comprehensive guide starting with the creation of resou
   
 <br><br>
 
+<img width="783" alt="Screenshot 2024-10-27 at 3 36 21 PM" src="https://github.com/user-attachments/assets/dc85a02c-20d6-4d5d-a668-0dac622c2645">
+
+- If you are confident that you have entered all the information accurately, yet you are still unable to establish a remote desktop connection to the virtual machine, the issue may be related to the password.
+
+- To reset your password, please access the Azure portal. Select your Windows virtual machine, navigate to the "Help" section, and click on "Reset password." Enter your new password and then select "Update." This process should effectively resolve the issue.
+
+<br><br>
 <img width="1680" alt="6" src="https://github.com/user-attachments/assets/1877ce8d-8a4a-49a0-b483-ca827787f8b0">
 
-<br>
 
 <br>
 
