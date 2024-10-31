@@ -61,9 +61,13 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <img width="1327" alt="Screenshot 2024-07-03 at 5 19 18 PM" src="https://github.com/user-attachments/assets/aefafcab-5794-46d7-b4ae-5fa96c7ad878">
 
 
-<br><br>
+<br>
 
 - Regarding the networking tab, my virtual network name was automatically assigned this name. To change the name scheme, please click on “Create New.”
+  
+<br>
+  <img width="678" alt="Screenshot 2024-10-27 at 4 05 38 PM" src="https://github.com/user-attachments/assets/f5f5191b-ded8-4f50-a585-9e12873e3a41">
+
 
 - I have updated the name to Lab2-Vnet. Please confirm by pressing OK, and this will be the new name for the virtual network.
   
@@ -71,6 +75,11 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <img width="715" alt="4" src="https://github.com/user-attachments/assets/e7ed4775-824d-432e-b2a9-484dea9e8772">
 
 - For the second Virtual Machine it will be roughly the same process as the first but what changes for this one is the name which is VM2 and the image of this VM which is Ubuntu Server 24.04 LTS - x64 Gen 2, this will be the Linux virtual machine
+
+  <br>
+
+  <img width="622" alt="Screenshot 2024-10-27 at 3 11 23 PM" src="https://github.com/user-attachments/assets/905af917-cc4f-4e63-ae03-9576d04e81a8">
+
   
 - Make sure to hit password for Authentication type and set a username and password that you will remember, try to write it down
   
