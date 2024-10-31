@@ -112,7 +112,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <br>
 <img width="287" alt="Screenshot 2024-09-19 at 12 28 36 PM" src="https://github.com/user-attachments/assets/fc0b9142-ae88-4315-9a78-b2649a841455">
 
-- First, go to the App Store on Mac and download this app. We are going to use remote desktop to connect to our Windows 10 virtual machine
+- Go to the App Store on Mac and download this app. We are going to use remote desktop to connect to our Windows 10 virtual machine
 <img width="470" alt="5" src="https://github.com/user-attachments/assets/fb9e38e9-3347-410a-ab8c-680c626ababe">
 
 - We are going to need to get the Windows 10 virtual IP address
