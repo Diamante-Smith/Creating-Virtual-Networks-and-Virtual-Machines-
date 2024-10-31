@@ -49,14 +49,22 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 - Select your resource group, for the virtual machine name I just made it VM1
   
 - Selected my region, for availability options set that to "No infrastructure redundancy required", Security type standard, and finally image Windows 10 Pro, version 22H2 x64 Gen2
+
+<img width="625" alt="Screenshot 2024-10-27 at 3 05 26 PM" src="https://github.com/user-attachments/assets/d26c907f-1e8c-4a5d-bea9-7c255eb8bd0b">
+
   
 - Make sure for the size you choose at least 2 vcpus so that way it is not going to run slow in Azure
+
+- Compose a password and username that are both easily remembered and secure, and then record them down for safekeeping.
+  
 <br><br>
 <img width="1327" alt="Screenshot 2024-07-03 at 5 19 18 PM" src="https://github.com/user-attachments/assets/aefafcab-5794-46d7-b4ae-5fa96c7ad878">
+
+
 <br>
 <br>
 
-- When it comes to the networking tab set this exactly like how I got it here in the screenshot
+- When it comes to the networking tab 
   
 <br><br>
 <img width="715" alt="4" src="https://github.com/user-attachments/assets/e7ed4775-824d-432e-b2a9-484dea9e8772">
