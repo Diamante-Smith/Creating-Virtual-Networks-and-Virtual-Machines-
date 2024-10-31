@@ -61,10 +61,11 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <img width="1327" alt="Screenshot 2024-07-03 at 5 19 18 PM" src="https://github.com/user-attachments/assets/aefafcab-5794-46d7-b4ae-5fa96c7ad878">
 
 
-<br>
-<br>
+<br><br>
 
-- When it comes to the networking tab 
+- Regarding the networking tab, my virtual network name was automatically assigned this name. To change the name scheme, please click on “Create New.”
+
+- I have updated the name to Lab2-Vnet. Please confirm by pressing OK, and this will be the new name for the virtual network.
   
 <br><br>
 <img width="715" alt="4" src="https://github.com/user-attachments/assets/e7ed4775-824d-432e-b2a9-484dea9e8772">
