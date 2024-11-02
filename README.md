@@ -86,7 +86,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <br><br>
 <img width="1463" alt="Screenshot 2024-07-03 at 5 22 18 PM" src="https://github.com/user-attachments/assets/5c5d9dd3-078f-4c3e-bcad-cb041535cda2">
 
-- Here are the 2 VMs that we will be using 
+- Here are the 2 Virtual Machines that we will be using 
 
 <br><br>
 <img width="1354" alt="Screenshot 2024-07-04 at 10 24 18 AM" src="https://github.com/user-attachments/assets/2500969d-7cbe-4c94-922c-50ffc8afd371">
@@ -149,6 +149,8 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <img width="694" alt="7" src="https://github.com/user-attachments/assets/85c62eb3-f601-4c3a-b230-b5da00ea9152"> 
 
 - We are going to download Wireshark on this virtual machine, here is the link https://www.wireshark.org
+
+- We will be downloading Windowsx64 Installer, so click this
 
 - When it is done downloading open the file and go through the procedure for installing the software which we will mostly say yes and agree
 
