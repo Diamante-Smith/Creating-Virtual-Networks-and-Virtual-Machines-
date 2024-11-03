@@ -213,7 +213,8 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <br><br>
 
-<img width="726" alt="Screenshot 2024-09-24 at 2 29 35 PM" src="https://github.com/user-attachments/assets/460a904c-76ce-4401-8c99-13b38bfe287f">
+<img width="1363" alt="Screenshot 2024-10-27 at 4 51 10 PM" src="https://github.com/user-attachments/assets/26c5add5-c7f5-44fe-abe4-8ccae110cf34">
+
 
 - On the left side beneath the data in pink click on the grey Ethernet II tab down arrow and what you see highlighted starting with Source: refers to the Physical address in Powershell
   
@@ -225,12 +226,15 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - When you expand the Internet Protocol A.K.A representative of the network layer of the OSI model layer 3 you can see the source address and destination address
 
-<img width="764" alt="Screenshot 2024-09-28 at 5 09 00 PM" src="https://github.com/user-attachments/assets/fced515f-f86f-4581-9363-a1a3c4ca64d4">
+<img width="1021" alt="Screenshot 2024-10-27 at 4 57 10 PM" src="https://github.com/user-attachments/assets/5666db96-fd42-425c-8338-2b6c38dfd401">
+
 <br><br>
 
 - The Windows virtual machine source address 10.0.0.4 is the private IP address that would be the IPv4 highlighted in the Windows Power shell with 10.0.0.5 in Wireshark being the Linux VM's Private IP address
 
-<img width="340" alt="Screenshot 2024-10-09 at 1 45 31 PM" src="https://github.com/user-attachments/assets/b5514d71-0641-4e89-8e61-d9c786f8d284">
+  <br><br>
+
+<img width="301" alt="Screenshot 2024-10-27 at 4 57 49 PM" src="https://github.com/user-attachments/assets/9e9222a1-5b9e-49ef-9a74-a81c8eabd693">
 
 - When you expand the Internet Control Message Protocol (ICMP) you can see data the actual payload of the data that was sent in the ping
 
