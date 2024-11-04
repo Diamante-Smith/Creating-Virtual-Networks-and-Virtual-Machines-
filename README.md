@@ -378,15 +378,17 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 - Type in hostname to verify which VM you are back in
   
 <br><br>
-<h3>&#9320; Observe DHCP traffic </h3>
 
+<h3>&#9320; Observe DHCP traffic </h3>
 
 
 <img width="934" alt="30" src="https://github.com/user-attachments/assets/bb7359ca-ae43-4fbf-8594-47413b23cb72">
 
 - In Wireshark, we are going to filter for DHCP traffic only
 
-- Type in DHCP at the top of Wireshark and then back in Powershell type in ipconfig /renew then hit enter
+- DHCP uses ports 67 and 68 this protocol is used to assign an IP address to devices when they are first connected to the network
+
+- Type in DHCP at the top of Wireshark we won't see any traffic but go back in Powershell type in ipconfig /renew then hit enter
 
 - **20:14
 
