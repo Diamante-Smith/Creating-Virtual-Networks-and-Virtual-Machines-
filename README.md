@@ -390,12 +390,19 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - Clear out what is in the filter and type in DHCP at the top of Wireshark you will not see any traffic running 
 
-- Open Powershell as an administrator and type in ipconfig /renew then hit enter
+- Open Powershell as an administrator and type in ipconfig /release then hit enter
 
 - ipconfig /release dropped the public IP address which disconnected us from the virtual machine
 
+- Please reconnect to the virtual machine and, if necessary, initiate a restart through the Azure portal.
+
 <img width="276" alt="Screenshot 2024-10-27 at 5 43 58 PM" src="https://github.com/user-attachments/assets/e42cd145-5c15-4be5-a138-f7b50eb609b5">
+
 <br><br>
+
+- Once Wireshark has been successfully initiated, please open PowerShell and enter the command "ipconfig /renew."
+
+
 
 <img width="127" alt="Screenshot 2024-10-27 at 5 45 50 PM" src="https://github.com/user-attachments/assets/06a1c269-90f1-48d3-b47f-6bcbedb10dbf">
 <br><br>
