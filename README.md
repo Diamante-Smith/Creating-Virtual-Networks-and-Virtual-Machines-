@@ -386,13 +386,32 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - In Wireshark, we are going to filter for DHCP traffic only
 
-- DHCP uses ports 67 and 68 this protocol is used to assign an IP address to devices when they are first connected to the network
+- DHCP uses ports 67 and 68 this protocol is used for the computer to assign itself an IP address to devices when they are first connected to the network
 
-- Type in DHCP at the top of Wireshark we won't see any traffic but go back in Powershell type in ipconfig /renew then hit enter
+- Clear out what is in the filter and type in DHCP at the top of Wireshark you will not see any traffic running 
 
-- **20:14
+- Open Powershell as an administrator and type in ipconfig /renew then hit enter
 
--
+- ipconfig /release dropped the public IP address which disconnected us from the virtual machine
+
+<img width="276" alt="Screenshot 2024-10-27 at 5 43 58 PM" src="https://github.com/user-attachments/assets/e42cd145-5c15-4be5-a138-f7b50eb609b5">
+<br><br>
+
+<img width="127" alt="Screenshot 2024-10-27 at 5 45 50 PM" src="https://github.com/user-attachments/assets/06a1c269-90f1-48d3-b47f-6bcbedb10dbf">
+<br><br>
+
+<img width="203" alt="Screenshot 2024-10-27 at 5 46 38 PM" src="https://github.com/user-attachments/assets/cb8f1f65-4057-419f-95d9-f5621ceb67dc">
+
+<br><br>
+
+<img width="121" alt="Screenshot 2024-10-27 at 5 47 27 PM" src="https://github.com/user-attachments/assets/3d0ddf6a-0dd0-4b48-a720-0e6819b60964">
+
+<br><br>
+
+<img width="210" alt="Screenshot 2024-10-27 at 5 47 57 PM" src="https://github.com/user-attachments/assets/6f1c8761-41f4-484b-8612-8f6221d91463">
+
+
+
 <br><br>
 
 <h3>&#9321; Observe DNS traffic </h3>
