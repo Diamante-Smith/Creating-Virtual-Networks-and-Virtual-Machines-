@@ -279,7 +279,8 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 - Click on Add to begin the process of creating a rule
 <br><br>
 
-<img width="352" alt="16" src="https://github.com/user-attachments/assets/2bae8d71-f9bf-4403-9d87-6ef495cd50dc">
+<img width="466" alt="Screenshot 2024-11-07 at 1 24 16 PM" src="https://github.com/user-attachments/assets/aa7c1b27-e80a-44db-99bf-606efc543f8d">
+
 
 - What I have displayed is what you should put in
 
@@ -310,7 +311,16 @@ This tutorial provides a comprehensive guide starting with the creation of resou
   
 <br><br>
 
-<img width="423" alt="19" src="https://github.com/user-attachments/assets/f5542cd3-bc37-455b-b24f-eeaa448e248e">
+<img width="457" alt="Screenshot 2024-11-07 at 1 34 38 PM" src="https://github.com/user-attachments/assets/a7f03bce-cf05-40ff-8a6f-80d9f8840225">
+
+
+<br><br>
+
+<img width="1439" alt="Screenshot 2024-11-07 at 1 30 48 PM" src="https://github.com/user-attachments/assets/b679a612-f828-4f14-8259-321edcd91f9f">
+
+<img width="1437" alt="Screenshot 2024-11-07 at 1 35 02 PM" src="https://github.com/user-attachments/assets/0b8f1d94-f108-4e44-9078-b94efcdb7ee6">
+
+<br><br>
 
 - For this, we will be turning back on the Allow action for ICMP so that it can get a reply, to do that go back to Virtual Machines -> linux-vm -> Networking -> Network settings -> click on the highlighted Network security group -> Inbound security rules -> you can choose to delete or edit the rule
   
