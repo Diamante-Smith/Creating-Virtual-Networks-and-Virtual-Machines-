@@ -405,7 +405,38 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - Clear out what is in the filter and type in DHCP at the top of Wireshark you will not see any traffic running 
 
-- Open Powershell as an administrator and type in ipconfig /release then hit enter
+- Open Powershell as an administrator and type in ipconfig /renew then hit enter, if the discover packet did not show up then you have to filter out more
+
+<br><br>
+<img width="127" alt="Screenshot 2024-10-27 at 5 45 50 PM" src="https://github.com/user-attachments/assets/06a1c269-90f1-48d3-b47f-6bcbedb10dbf">
+<br>
+
+
+<img width="203" alt="Screenshot 2024-10-27 at 5 46 38 PM" src="https://github.com/user-attachments/assets/cb8f1f65-4057-419f-95d9-f5621ceb67dc">
+
+<br>
+
+<img width="121" alt="Screenshot 2024-10-27 at 5 47 27 PM" src="https://github.com/user-attachments/assets/3d0ddf6a-0dd0-4b48-a720-0e6819b60964">
+
+<br>
+
+<img width="210" alt="Screenshot 2024-10-27 at 5 47 57 PM" src="https://github.com/user-attachments/assets/6f1c8761-41f4-484b-8612-8f6221d91463">
+<br><br>
+
+- We will begin running a script
+   
+- Open Notepad and type in what I have here
+
+- Save what is typed out file -> save
+
+- When the save as options show up at the top type in exactly what I have
+
+- Save the file name as dhcp.bat
+
+- We will run this in Powershell to have it release all the IP addresses and then it should renew automatically coming back up after killing the network connection 
+
+
+
 
 - ipconfig /release dropped the public IP address which disconnected us from the virtual machine
 
@@ -419,18 +450,6 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 
 
-<img width="127" alt="Screenshot 2024-10-27 at 5 45 50 PM" src="https://github.com/user-attachments/assets/06a1c269-90f1-48d3-b47f-6bcbedb10dbf">
-<br><br>
-
-<img width="203" alt="Screenshot 2024-10-27 at 5 46 38 PM" src="https://github.com/user-attachments/assets/cb8f1f65-4057-419f-95d9-f5621ceb67dc">
-
-<br><br>
-
-<img width="121" alt="Screenshot 2024-10-27 at 5 47 27 PM" src="https://github.com/user-attachments/assets/3d0ddf6a-0dd0-4b48-a720-0e6819b60964">
-
-<br><br>
-
-<img width="210" alt="Screenshot 2024-10-27 at 5 47 57 PM" src="https://github.com/user-attachments/assets/6f1c8761-41f4-484b-8612-8f6221d91463">
 
 
 
@@ -471,7 +490,6 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - Sometimes you can load a modern website based on the IP address
 
-- 31:21
 
 <br><br>
 
