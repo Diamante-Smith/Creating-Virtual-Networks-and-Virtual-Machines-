@@ -251,25 +251,30 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 <br><br>
 <h3>&#9318; Configuring a firewall to Block all incoming ping traffic </h3>
 
+- In this step, we are going to block all incoming ping traffic coming from the Windows Virtual Machine to the Linux Virtual Machine and then observe what happens afterward
+
 <img width="800" alt="14" src="https://github.com/user-attachments/assets/e567af13-3c65-4805-b9e9-e84d0804d353">
 
-- In this step, we are going to block all incoming ping traffic coming from the Windows Virtual Machine to the Linux Virtual Machine and then observe what happens afterward 
-
-- Go ahead and jump straight into your Linux virtual machine in the Azure portal, hit the networking down arrow, then hit network settings
-  
-  <img width="140" alt="Screenshot 2024-10-10 at 4 27 08 PM" src="https://github.com/user-attachments/assets/7a0c860d-8180-4ffa-9261-dcfb95b77183">
-
-- In the networking settings you will find the Network Security Group and beneath that click Linux-vm-nsg
-
-- This is the firewall for the Linux computer
 <br><br>
 
-<img width="1447" alt="15" src="https://github.com/user-attachments/assets/37751a88-ec8f-435a-9b91-e42ad8b128bc">
-<br>
+<img width="218" alt="Screenshot 2024-11-07 at 1 02 57 PM" src="https://github.com/user-attachments/assets/5da89e34-d908-422b-bc18-fe9b61b7be6d">
+<br><br>
+
+- Go ahead and jump straight into the Azure portal and search for Network Security Groups -> Click on your Linux VM -> Hit the Settings down arrow
+
+<br><br>
+
+
+<img width="689" alt="Screenshot 2024-11-07 at 1 09 32 PM" src="https://github.com/user-attachments/assets/12201d99-8a30-4b98-affd-23960dab78fd">
+
+- This is the firewall for the Linux computer
 
 - For this step hit the drop-down arrow for settings and click on inbound security rules, with this we will create a rule for traffic coming inbound to the virtual machine
+  <br><br>
 
 <img width="599" alt="Screenshot 2024-10-11 at 2 51 18 PM" src="https://github.com/user-attachments/assets/8a519d7d-4d5e-4ef1-a0bb-c9a7fdc39275">
+
+<br><br>
 
 - Click on Add to begin the process of creating a rule
 <br><br>
