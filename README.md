@@ -434,8 +434,30 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 - Save the file name as dhcp.bat
 
 - We will run this in Powershell to have it release all the IP addresses and then it should renew automatically coming back up after killing the network connection 
+<br><br>
+
+<img width="544" alt="Screenshot 2024-11-07 at 2 12 52 PM" src="https://github.com/user-attachments/assets/a39cfb36-aedc-4091-8ea8-f138d7bf237d">
+
+- Type in Powershell cd c:\programdata to be inside the programdata
+
+<br><br>
+
+  <img width="533" alt="Screenshot 2024-11-07 at 2 13 10 PM" src="https://github.com/user-attachments/assets/9945f15d-973a-40ab-84ca-94fac1c8605c">
 
 
+- Type ls for list and you can see dhcp.bat is in the program data that we saved
+
+  <br><br>
+  
+<img width="650" alt="Screenshot 2024-11-07 at 2 14 36 PM" src="https://github.com/user-attachments/assets/b360088f-e9b4-4076-8b44-d38b533c0d44">
+
+- To run dhcp you will first clear out the data in Wireshark then head back into Powershell and type in .\dhcp.bat and press enter
+
+<br><br>
+
+<img width="1015" alt="Screenshot 2024-11-07 at 2 15 41 PM" src="https://github.com/user-attachments/assets/eae60aa4-cfd2-4038-a86b-80db2b535a1b">
+
+<br><br>
 
 
 - ipconfig /release dropped the public IP address which disconnected us from the virtual machine
