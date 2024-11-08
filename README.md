@@ -425,11 +425,11 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - We will begin running a script
    
-- Open Notepad and type in what I have here
+- Open Notepad and type in ipconfig /release underneath that ipconfig /renew
 
-- Save what is typed out file -> save
+- Save what we typed out file -> save
 
-- When the save as options show up at the top type in exactly what I have
+- When the Save As options show up at the top type in c:\programdata
 
 - Save the file name as dhcp.bat
 
