@@ -471,10 +471,6 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 - Once Wireshark has been successfully initiated, please open PowerShell and enter the command "ipconfig /renew."
 
 
-
-
-
-
 <br><br>
 
 <h3>&#9321; Observe DNS traffic </h3>
