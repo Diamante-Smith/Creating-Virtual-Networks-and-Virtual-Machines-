@@ -458,12 +458,15 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="1015" alt="Screenshot 2024-11-07 at 2 15 41 PM" src="https://github.com/user-attachments/assets/eae60aa4-cfd2-4038-a86b-80db2b535a1b">
 
+- The connection will die after you hit enter because IP release happened but then automatically renew will kick in and restore the connection
+
+- 
+
+
 <br><br>
 
 
-- ipconfig /release dropped the public IP address which disconnected us from the virtual machine
 
-- Please reconnect to the virtual machine and, if necessary, initiate a restart through the Azure portal.
 
 <img width="276" alt="Screenshot 2024-10-27 at 5 43 58 PM" src="https://github.com/user-attachments/assets/e42cd145-5c15-4be5-a138-f7b50eb609b5">
 
