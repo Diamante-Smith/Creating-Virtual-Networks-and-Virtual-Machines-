@@ -438,6 +438,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 <img width="544" alt="Screenshot 2024-11-07 at 2 12 52 PM" src="https://github.com/user-attachments/assets/a39cfb36-aedc-4091-8ea8-f138d7bf237d">
 
+
 - Type in Powershell cd c:\programdata to be inside the programdata
 
 <br><br>
