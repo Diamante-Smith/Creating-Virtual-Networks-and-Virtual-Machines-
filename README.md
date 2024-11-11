@@ -460,9 +460,17 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - The connection will die after you hit enter because Ipconfig \release happened but then automatically ipconfig \renew will kick in and restore the connection
 
-- 
-
 - This is the DHCP traffic that was captured in Wireshark
+
+- When release occurred the release packet was sent from the source computer (Windows) to the destination computer
+
+- After the release script command of DHCP was executing the script executed ipconfig /renew making it no need to type that out cause there is no network connection anymore but the command still ran
+
+- Discover happened with that occurring along with the other packets and so the source became zero because the IP address was released and the connection was dropped with the destination address as 255.255.255.255 a.k.a broadcast
+
+- The DHCP server broadcasted back to my computer with a DHCP Offer request and then my computer sent a DHCP request packet to the DHCP server
+
+- Finally, the DHCP server acknowledged the requests from them to my computer, and then an acknowledge request was sent which had my computer now acquire a new IP address 
 
 
 <br><br>
@@ -507,6 +515,13 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 - This is spam that happened on the back end of the nslookup for Disney
 
 - DNS (resolves host names like human-readable names into IP addresses)
+
+<br><br>
+
+
+<img width="1002" alt="Screenshot 2024-10-27 at 5 54 22 PM" src="https://github.com/user-attachments/assets/a71ce1cc-3ab0-48b8-871a-b090c94a1d46">
+
+
 
 - If you copy and paste the address 130.211.198.204 in a browser it will show something in correlation to Disney sometimes
 
