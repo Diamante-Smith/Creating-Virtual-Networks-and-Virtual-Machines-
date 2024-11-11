@@ -548,9 +548,15 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - RDP (is used when remotely connecting from 1 computer to another to gain a remote desktop  GUI, the computer being connected is typically "listening" for a connection on TCP port 3389
 
-- 
+- This remote desktop that we are using is an RDP connection
 
 <br><br>
+
+<img width="1034" alt="Screenshot 2024-11-07 at 2 31 36 PM" src="https://github.com/user-attachments/assets/bccfaf7c-3987-468e-9ab3-ad3835c48bbe">
+
+- When filtering for tcp.port==3389 as you see there is a lot of spam because RDP is constantly streaming a picture from the server to our local machine; constantly sending stuff
+
+- Compared to SSH which only sends traffic when your doing a single keystroke, it sends the keystroke to the server your connected too but RDP has to send an actual photograph
 
 
 
