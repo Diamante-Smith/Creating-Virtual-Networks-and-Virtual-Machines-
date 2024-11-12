@@ -558,6 +558,11 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - Compared to SSH which only sends traffic when your doing a single keystroke, it sends the keystroke to the server your connected too but RDP has to send an actual photograph
 
+<h2> Congrats on Finishing the Tutorial! 🎉 </h2>
+
+
+You’ve successfully navigated the process of creating resource groups, setting up virtual machines, and gaining remote desktop access from macOS. By following this tutorial, you’ve gained valuable hands-on experience in managing virtual networks and configuring network tasks. Well done on completing these essential steps—your newly acquired skills are a fantastic addition to your tech toolkit, and I’m confident they’ll serve you well in your future projects. Keep up the great work and continue exploring the endless possibilities of virtual network management!
+
 
 
 
