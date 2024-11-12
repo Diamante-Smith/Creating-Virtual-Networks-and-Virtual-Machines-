@@ -16,6 +16,7 @@ This tutorial provides a comprehensive guide starting with the creation of resou
 
 - Windows Server 2022
 - Windows 10 Pro (22H2)
+- Linux, Ubuntu Server 24.04 LTS - x64 Gen 2. 
 - MacOS 
 
 <h2>Creating Our Resources & Virtual Machines </h2> 
